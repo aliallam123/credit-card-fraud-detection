@@ -8,6 +8,6 @@
 - [x] check for missing/null values (none found)
 
 ## phase 2: exploratory data analysis
-- [ ] analyse class imbalance
+- [x] analyse class imbalance
 - [ ] plot transaction distributions (amount and time)
 - [ ] check correlation between features
