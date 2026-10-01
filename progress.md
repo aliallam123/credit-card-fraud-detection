@@ -13,3 +13,13 @@
 - [x] create stratified split (`original_Xtrain`, `original_Xtest`) to prevent data leakage
 - [x] create 50/50 balanced sub-sample via under-sampling to address accuracy paradox
 - [x] check feature correlations on balanced sub-sample
+
+## phase 3: baseline modeling & hyperparameter tuning
+- [x] train baseline classifiers (Logistic Regression, KNN, SVC, Decision Tree)
+- [x] evaluate initial models using F1-score, Precision, and Recall
+- [x] execute `GridSearchCV` hyperparameter tuning on all 4 models:
+  - [x] **Logistic Regression** (CV F1: ~94.2%)
+  - [x] **Decision Tree Classifier** (CV F1: ~93.5%)
+  - [x] **Support Vector Classifier (SVC)** (CV F1: ~89.4%)
+  - [x] **K-Nearest Neighbors (KNN)** (CV F1: ~62.6%)
+- [x] extract and save top-performing `best_estimator_` models
