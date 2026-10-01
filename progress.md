@@ -27,3 +27,8 @@
 ## phase 4: outlier removal & advanced resampling (upcoming)
 - [ ] identify and eliminate extreme outliers using IQR method on key features ($V14$, $V12$, $V10$)
 - [ ] implement and test oversampling technique (SMOTE) during cross-validation
+
+## phase 5: evaluation on production data
+- [ ] evaluate tuned models on original imbalanced test dataset (`original_Xtest`)
+- [ ] generate Precision-Recall and ROC-AUC curves
+- [ ] select final winning production model
