@@ -23,3 +23,7 @@
   - [x] **Support Vector Classifier (SVC)** (CV F1: ~89.4%)
   - [x] **K-Nearest Neighbors (KNN)** (CV F1: ~62.6%)
 - [x] extract and save top-performing `best_estimator_` models
+
+## phase 4: outlier removal & advanced resampling (upcoming)
+- [ ] identify and eliminate extreme outliers using IQR method on key features ($V14$, $V12$, $V10$)
+- [ ] implement and test oversampling technique (SMOTE) during cross-validation
