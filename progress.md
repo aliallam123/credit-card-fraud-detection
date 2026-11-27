@@ -65,20 +65,33 @@
 - [x] remove redundant code and debugging cells
 - [x] improve markdown documentation throughout notebook
 - [x] fix Seaborn and Logistic Regression deprecation warnings
-- [ ] complete final code and comment review
-- [ ] restart kernel and run entire notebook
-- [ ] verify final results and check for remaining warnings
-- [ ] commit completed notebook to GitHub
+- [X] complete final code and comment review
+- [X] restart kernel and run entire notebook
+- [X] verify final results and check for remaining warnings
+- [X] commit completed notebook to GitHub
 
 ## phase 7: FastAPI development
-- [ ] organise model artefacts and application directory
-- [ ] configure application dependencies
-- [ ] create FastAPI application
+- [x] organise model artefacts and application directory
+- [x] update notebook paths for relocated model artefacts
+- [x] verify model and threshold load successfully from new directory
+- [x] configure and install application dependencies
+- [x] establish Git workflow using VS Code terminal
+- [x] create Git workflow reference guide
+- [x] understand FastAPI fundamentals
+- [x] create FastAPI application (src/main.py)
+- [x] build root GET endpoint
+- [x] build basic health check endpoint (/health)
+- [x] run local API server using Uvicorn
+- [x] test basic endpoints and Swagger UI
+- [x] commit and push application setup to GitHub
+- [ ] pin dependency versions for reproducibility
 - [ ] implement transaction input validation using Pydantic
 - [ ] load saved model and threshold into application
-- [ ] build fraud prediction endpoint
-- [ ] build health check endpoint
-- [ ] test API locally
+- [ ] ensure input features match trained model schema
+- [ ] build fraud prediction endpoint (/predict)
+- [ ] implement model readiness check
+- [ ] test prediction endpoint locally using Swagger UI
+- [ ] verify API predictions match notebook predictions
 - [ ] write automated tests for predictions and invalid inputs
 
 ## phase 8: Docker containerisation
